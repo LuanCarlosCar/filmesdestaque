@@ -22,7 +22,7 @@ export const ContainerHeader = styled.header`
 `;
 export const ContainerDestaque = styled.section`
     position: absolute;
-    bottom: -16.9rem;
+    top: 27.9rem;
     padding: 0 3rem;
     box-sizing: border-box;
     h2{font-family: 'Open Sans', sans-serif;
@@ -56,7 +56,7 @@ export const ContainerListaDestaque = styled.section`
 
    scroll-padding: 10px;
     &::-webkit-scrollbar {
-      width: 1px;
+      width: 3px;
         height: 1px;
         background-color: #CCCCCC;
         }
