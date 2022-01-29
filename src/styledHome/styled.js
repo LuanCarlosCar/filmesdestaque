@@ -3,15 +3,15 @@ import styled from "styled-components";
 
 export const ContainerHome = styled.div`
     width: 100vw;
-    height: 62.5rem;
+    height: 75vw;
     background-color: #0C0C0C;
     box-sizing: border-box;
     overflow: hidden;
     
 `;
 export const ContainerHeader = styled.header`
-background-image: url(${(props)=>(props.fundo)});
-position: relative;
+    background-image: url(${(props)=>(props.fundo)});
+    position: relative;
     height: 80vh;
     width: 100vw;
     background-size: cover;
