@@ -1,0 +1,28 @@
+info filme:
+
+categoria: Ação
+titulo: Batman
+descricao: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum convallis turpis, nec rutrum quam vulputate viverra. Proin ornare dolor sit amet laoreet dignissim. 
+horas: 1h 57m
+
+botao: Assistir agora
+{titulo: 'Batman', descricao: 'auhsuhaushaushuahsuahushuhsauhsuausihauis', horas: '1h 57m', categoria: 'acao', imgBanner : , imgMain:}
+
+segunda secção:
+
+-Destaque
+
+filme:
+categoria: Ação
+titulo: Shang-Chi
+
+
+backgroundMain =  height: 1081px;
+                  width: 1920px;
+
+
+mini-card = height: 440px;
+            width: 300px;
+
+
+

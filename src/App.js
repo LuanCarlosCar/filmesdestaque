@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import { useContext } from "react";
+import Banner from "./components/Banner";
+import Detalhe from "./components/Detalhe";
+import NavBar from "./components/Navbar";
+import { ListContext, ListProvider } from "./providers/ListProvider";
+import { Barra, ContainerDestaque, ContainerHeader, ContainerHome, ContainerListaDestaque } from "./styledHome/styled";
+import video from './assets/video/eu.mkv'
+import Footer from "./components/Footer";
+
 
 function App() {
+  const {lista, filme} = useContext(ListContext)
+  console.log(lista)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   
+        <ContainerHome>
+      <ContainerHeader fundo={filme.imgMain}>
+      <NavBar />
+        <Detalhe />
+
+      </ContainerHeader>
+      
+      <ContainerDestaque>
+        <h2>Destaque</h2>
+        <Barra></Barra>
+        <ContainerListaDestaque>
+        {lista.map((item)=>(
+          <Banner key={item.titulo} item={item} titulo={item.titulo} descricao={item.descricao} horas={item.horas} categoria={item.categoria} fundoBanner={item.imgBanner} fundoMain={item.imgMain} />
+        ))}
+
+        </ContainerListaDestaque>
+        
+        <Footer />
+      </ContainerDestaque>
+          
+    </ContainerHome>
+
+
   );
 }
 
