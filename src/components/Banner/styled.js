@@ -15,6 +15,8 @@ const flutuar = keyframes`
 export const ContainerBanner= styled.div`
     position: relative;
     background-image: url(${(props)=>(props.fundo)});
+    background-size: cover;
+    background-repeat: no-repeat;
     min-width: 300px;
     height: 400px;
     margin-right: 20px;
