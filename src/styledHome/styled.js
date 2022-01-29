@@ -7,6 +7,7 @@ export const ContainerHome = styled.div`
     background-color: #0C0C0C;
     box-sizing: border-box;
     overflow: hidden;
+    box-shadow: inset 100px 25px 240px 150px rgba(0,0,0);
     
 `;
 export const ContainerHeader = styled.header`
