@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const ContainerHome = styled.div`
     width: 100vw;
-    height: 1000px;
+    height: 62.5rem;
     background-color: #0C0C0C;
     box-sizing: border-box;
     overflow: hidden;
