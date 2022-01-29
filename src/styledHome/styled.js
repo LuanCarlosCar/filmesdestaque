@@ -58,7 +58,7 @@ export const ContainerListaDestaque = styled.section`
    scroll-padding: 10px;
     &::-webkit-scrollbar {
       width: 3px;
-        height: 1px;
+        height: 3px;
         background-color: #CCCCCC;
         }
         &::-webkit-scrollbar-button {
