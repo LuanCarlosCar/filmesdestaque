@@ -22,7 +22,7 @@ export const ContainerHeader = styled.header`
 `;
 export const ContainerDestaque = styled.section`
     position: absolute;
-    top: 27.9rem;
+    top: 27.8rem;
     padding: 0 3rem;
     box-sizing: border-box;
     h2{font-family: 'Open Sans', sans-serif;
