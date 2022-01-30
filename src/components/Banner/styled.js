@@ -64,3 +64,12 @@ export const ContainerBanner= styled.div`
     }
    
 `;
+export const TitleBanner= styled.h2`
+ 
+        font-size: 24px;
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 600;
+        color: #F9F9F9;
+    
+
+`;
