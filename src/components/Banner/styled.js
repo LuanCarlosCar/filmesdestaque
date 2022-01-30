@@ -62,4 +62,5 @@ export const ContainerBanner= styled.div`
         font-weight: 600;
         color: #F9F9F9;
     }
+   
 `;

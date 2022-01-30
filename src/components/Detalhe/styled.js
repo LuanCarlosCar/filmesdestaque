@@ -65,5 +65,9 @@ export const TextDescricao = styled.p`
     color: #F9F9F9;
     line-height: 1.75rem;
     margin-bottom: 2.7rem;
+    @media (max-width: 960px){
+        max-height: 3.5rem;
+      
+    }
 `;
 

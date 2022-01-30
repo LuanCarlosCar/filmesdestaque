@@ -10,7 +10,6 @@ import Footer from "./components/Footer";
 
 function App() {
   const {lista, filme} = useContext(ListContext)
-  console.log(lista)
   return (
    
         <ContainerHome>

@@ -7,6 +7,7 @@ export const ContainerFooter = styled.footer`
     
     display: flex;
     justify-content: space-between;
+    padding: 0 3rem;
     ul{
         display: flex;
         li{

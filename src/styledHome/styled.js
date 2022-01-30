@@ -24,14 +24,16 @@ export const ContainerHeader = styled.header`
 export const ContainerDestaque = styled.section`
     position: absolute;
     top: 27.8rem;
-    padding: 0 3rem;
+ 
+    
     box-sizing: border-box;
     h2{font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
     font-weight: 600;
     color: #f9f9f9;
+    margin-left: 3rem;
     }
-
+  
 `;
 export const Barra = styled.div`
     width: 3.75rem;
@@ -39,10 +41,11 @@ export const Barra = styled.div`
     margin-top: 0.125rem;
     background-color: orange;
     margin-bottom: 2.3rem;
+    margin-left: 3.2rem;
 `;
 export const ContainerListaDestaque = styled.section`
 
-    width: 95vw;
+    width: 100vw;
     position: relative;
 
    

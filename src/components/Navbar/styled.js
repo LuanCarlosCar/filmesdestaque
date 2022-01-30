@@ -6,6 +6,7 @@ export const ContainerNav = styled.nav`
     align-items: center;
     padding: 1.25rem 3rem;
     box-sizing: border-box;
+    
 `;
 export const ContainerList = styled.ul`
     text-decoration: none;
@@ -23,5 +24,9 @@ export const ContainerList = styled.ul`
     }
     li:last-child{
         margin-right: 0;
+    }
+    @media (max-width: 960px){
+      display: none;
+      
     }
 `
