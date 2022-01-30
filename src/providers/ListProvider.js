@@ -1,7 +1,7 @@
 
 import { createContext, useState } from 'react'
 import MiranhaBanner from '../assets/imagens/fundo/mini-miranha.svg'
-import Miranha from '../assets/imagens/fundo/miranha.jpg'
+import Miranha from '../assets/imagens/fundo/miranha6.jpg'
 import LokiBanner from '../assets/imagens/fundo/mini-loki.svg'
 import Loki from '../assets/imagens/fundo/loki.jpg'
 import Drag from '../assets/imagens/fundo/drag3.jpg'
