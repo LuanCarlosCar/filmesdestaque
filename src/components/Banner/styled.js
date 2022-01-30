@@ -17,8 +17,8 @@ export const ContainerBanner= styled.div`
     background-image: url(${(props)=>(props.fundo)});
     background-size: cover;
     background-repeat: no-repeat;
-    min-width: 300px;
-    height: 350px;
+    min-width: 290px;
+    height: 400px;
     margin-right: 20px;
     cursor: pointer;
     
