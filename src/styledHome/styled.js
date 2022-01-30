@@ -30,12 +30,7 @@ export const ContainerDestaque = styled.section`
  
     
     box-sizing: border-box;
-    h2{font-family: 'Open Sans', sans-serif;
-    font-size: 2rem;
-    font-weight: 600;
-    color: #f9f9f9;
-    margin-left: 3rem;
-    }
+    
     @media (max-width: 415px){
         h2{margin-left: 1rem;}
         
@@ -43,6 +38,14 @@ export const ContainerDestaque = styled.section`
     }
     
   
+`;
+export const TitleDestaque = styled.h2`
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #f9f9f9;
+    margin-left: 3rem;
+    
 `;
 export const Barra = styled.div`
     width: 3.75rem;

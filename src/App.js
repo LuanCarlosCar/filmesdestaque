@@ -3,8 +3,8 @@ import Banner from "./components/Banner";
 import Detalhe from "./components/Detalhe";
 import NavBar from "./components/Navbar";
 import { ListContext, ListProvider } from "./providers/ListProvider";
-import { Barra, ContainerDestaque, ContainerHeader, ContainerHome, ContainerListaDestaque } from "./styledHome/styled";
-import video from './assets/video/eu.mkv'
+import { Barra, ContainerDestaque, ContainerHeader, ContainerHome, ContainerListaDestaque, TitleDestaque } from "./styledHome/styled";
+
 import Footer from "./components/Footer";
 
 
@@ -20,7 +20,7 @@ function App() {
       </ContainerHeader>
       
       <ContainerDestaque>
-        <h2>Destaque</h2>
+        <TitleDestaque>Destaque</TitleDestaque>
         <Barra></Barra>
         <ContainerListaDestaque>
         {lista.map((item)=>(

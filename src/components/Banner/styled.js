@@ -65,11 +65,13 @@ export const ContainerBanner= styled.div`
    
 `;
 export const TitleBanner= styled.h2`
- 
+        all: none;
         font-size: 24px;
         font-family: 'Open Sans',sans-serif;
         font-weight: 600;
         color: #F9F9F9;
+        margin: 0;
+        padding:0;
     
 
 `;
