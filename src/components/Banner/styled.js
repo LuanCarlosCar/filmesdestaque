@@ -18,7 +18,7 @@ export const ContainerBanner= styled.div`
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 300px;
-    height: 400px;
+    height: 350px;
     margin-right: 20px;
     cursor: pointer;
     
