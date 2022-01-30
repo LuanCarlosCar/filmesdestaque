@@ -17,6 +17,9 @@ export const ContainerHeader = styled.header`
     width: 100vw;
     background-size: cover;
     box-shadow: inset 100px 25px 240px 100px rgba(0,0,0);
+    @media (max-width: 415px){
+        background-position: center;
+    }
     
     
  
@@ -33,6 +36,12 @@ export const ContainerDestaque = styled.section`
     color: #f9f9f9;
     margin-left: 3rem;
     }
+    @media (max-width: 415px){
+        h2{margin-left: 1rem;}
+        
+      
+    }
+    
   
 `;
 export const Barra = styled.div`
@@ -42,6 +51,11 @@ export const Barra = styled.div`
     background-color: orange;
     margin-bottom: 2.3rem;
     margin-left: 3.2rem;
+    @media (max-width: 415px){
+        margin-left: 1.2rem;
+        
+      
+    }
 `;
 export const ContainerListaDestaque = styled.section`
 

@@ -25,8 +25,22 @@ export const ContainerConteudo = styled.div`
         font-size: 1.6rem;
         color: black;
         border-radius: 0.625rem;
+    @media (max-width: 415px){
+         width: 17rem;
+        height: 3.3rem;
+        font-size: 1.3rem;
+    }
         
     }
+    @media (max-width: 415px){
+        margin-left: 1rem;
+        h1{
+            font-size: 2.5rem;
+        }
+      
+    }
+    
+    
 `;
 export const TextCategoria = styled.p`
     display: inline-block;
@@ -39,6 +53,10 @@ export const TextCategoria = styled.p`
     color: #FFA634;
     background-color: black;
     margin-bottom: 1rem;
+    @media (max-width: 415px){
+        font-size: 0.7rem;
+      
+    }
 
 
 `;
@@ -68,6 +86,11 @@ export const TextDescricao = styled.p`
     @media (max-width: 960px){
         max-height: 3.5rem;
       
+    }
+    @media (max-width: 415px){
+        font-size: 0.9rem;
+        max-width: 30.5rem;
+        max-height: 6.5rem;
     }
 `;
 

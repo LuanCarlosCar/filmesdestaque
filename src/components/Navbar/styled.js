@@ -6,6 +6,10 @@ export const ContainerNav = styled.nav`
     align-items: center;
     padding: 1.25rem 3rem;
     box-sizing: border-box;
+    @media (max-width: 415px){
+        padding: 1rem;
+      
+    }
     
 `;
 export const ContainerList = styled.ul`
