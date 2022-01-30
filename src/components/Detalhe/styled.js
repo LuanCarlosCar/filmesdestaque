@@ -64,6 +64,6 @@ export const TextDescricao = styled.p`
     text-overflow: ellipsis;
     color: #F9F9F9;
     line-height: 1.75rem;
-    margin-bottom: 3.70rem;
+    margin-bottom: 2.7rem;
 `;
 
